@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background-dark: #141414;
+    --text-dark: #D4D4D8;
+    --link-dark: #999;
+    --border-dark: #333;
+    --background-light: #f0f0f0;
+    --text-light: #333;
+    --link-light: #0070f3;
+    --border-light: #ccc;
+}
+
+body.dark {
+    --background: var(--background-dark);
+    --text: var(--text-dark);
+    --link: var(--link-dark);
+    --border: var(--border-dark);
+}
+
+body.light {
+    --background: var(--background-light);
+    --text: var(--text-light);
+    --link: var(--link-light);
+    --border: var(--border-light);
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a {
+    color: var(--link);
+}
+
+.bg-background {
+    background-color: var(--background);
+}
+
+.text-text {
+    color: var(--text);
+}
+
+.text-link {
+    color: var(--link);
+}
+
+.border-border {
+    border-color: var(--border);
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-text {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.formatted-text {
+    white-space: pre-wrap;
+    max-width: 800px;
+    text-align: left;
+}
+
+.netop-logo {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #4400ff;
+    text-align: center;
+    margin: 0;
+}
+
+/* components/NetopLogo.module.css */
+.logo {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: hsl(0, 100%, 50%);
+    text-align: center;
+    margin: 0;
+}
+
+.border-transparent-top {
+    border-color: rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .border-transparent-bottom {
+    border-color: rgba(0, 0, 0, 0.1) !important;
+  }
