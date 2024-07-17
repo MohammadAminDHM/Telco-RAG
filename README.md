@@ -16,10 +16,6 @@ Telco-RAG is a specialized Retrieval-Augmented Generation (RAG) framework design
 ## Presentation Video
 
 [Watch the video](https://github.com/netop-team/Telco-RAG/blob/main/VideoPresentation.gif)
-<video width="600" controls>
-  <source src="https://github.com/netop-team/Telco-RAG/blob/main/VideoPresentation.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ## Getting Started
 
