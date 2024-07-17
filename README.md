@@ -13,6 +13,12 @@ Telco-RAG is a specialized Retrieval-Augmented Generation (RAG) framework design
 - **Hyperparameter Optimization**: Carefully tuned to deliver the best performance by optimizing chunk sizes, context length, and embedding models.
 - **NN Router**: A neural network-based router that improves the efficiency and accuracy of document retrieval, significantly reducing RAM usage.
 - **Open-Source**: Freely available for the community to use, adapt, and improve upon.
+## Presentation Video
+
+<video width="600" controls>
+  <source src="[https://github.com/username/repo/raw/branch/path/to/video.mp4](https://github.com/netop-team/Telco-RAG/blob/main/VideoPresentation.mp4)" type="video/mp4">
+
+</video>
 
 ## Getting Started
 
