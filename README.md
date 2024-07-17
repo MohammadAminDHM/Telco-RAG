@@ -15,7 +15,7 @@ Telco-RAG is a specialized Retrieval-Augmented Generation (RAG) framework design
 - **Open-Source**: Freely available for the community to use, adapt, and improve upon.
 ## Presentation Video
 
-[Watch the video](https://github.com/netop-team/Telco-RAG/blob/main/VideoPresentation.gif)
+![Watch the video](https://github.com/netop-team/Telco-RAG/blob/main/VideoPresentation.gif)
 
 ## Getting Started
 
